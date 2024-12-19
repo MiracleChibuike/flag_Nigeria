@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-y: hidden;
+        }
+
+        .flag_Body {
+            background: #78baba;
+            display: grid;
+            place-content: center;
+            min-height: 100vh;
+        }
+
+        .flag_Contents {
+            display: flex;
+        }
+
+        .flag_stick {
+            width: 12px;
+            height: 400px;
+            background: #110000;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .flag_first, .flag_last {
+            width: 100px;
+            height: 150px;
+            background: #005000;
+        }
+        .flag_last{
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 10px;
+
+
+        }
+        .flag_second{
+              width: 100px;
+            height: 150px;
+            background: #f4f4f4;
+        }
+        .flag_header{
+            text-align: center;
+            color: #fff;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="flag_Body">
+            <h2 class="flag_header">
+                Nigerian Flag
+            </h2>
+            <div class="flag_Contents">
+                <div class="flag_stick"></div>
+                <div class="flag_first"></div>
+                <div class="flag_second"></div>
+                <div class="flag_last"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
